@@ -7,6 +7,7 @@ let level = 0
 $(document).keydown(function(){
   if (!started) {
     $("#level-title").text('Level ' + level)
+    $("p").text('')
     nextSequence()
     started = true
   }
